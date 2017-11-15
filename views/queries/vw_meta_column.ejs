@@ -1,0 +1,18 @@
+﻿-- View: public.vw_meta_column
+
+-- DROP VIEW public.vw_meta_column;
+
+CREATE OR REPLACE VIEW public.vw_meta_column AS
+ SELECT a.attname AS column_name,
+    d.description,
+    c.relname
+   FROM pg_class c
+     JOIN pg_attribute a ON c.oid = a.attrelid
+     LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
+     LEFT JOIN pg_tablespace t ON t.oid = c.reltablespace
+     LEFT JOIN pg_description d ON d.objoid = c.oid AND d.objsubid = a.attnum
+  WHERE (c.relkind = ANY (ARRAY['r'::"char", 'v'::"char"])) AND c.relname = 'State'::name
+  ORDER BY n.nspname, c.relname, a.attname;
+ALTER TABLE public.vw_meta_column
+    OWNER TO postgres;
+
