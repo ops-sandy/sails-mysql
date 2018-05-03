@@ -32,6 +32,10 @@ patch:
         patched: '2018-05-03T13:31:34.409Z'
     - sails > @sailshq/express > @sailshq/connect > debug:
         patched: '2018-05-03T13:31:34.409Z'
+    - sails-mysql > machinepack-mysql > debug:
+        patched: '2018-05-03T13:32:46.531Z'
+    - sails-postgresql > machinepack-postgresql > debug:
+        patched: '2018-05-03T13:32:46.531Z'
   'npm:ms:20170412':
     - sails > @sailshq/express > debug > ms:
         patched: '2018-05-03T13:31:34.409Z'
@@ -69,6 +73,10 @@ patch:
         patched: '2018-05-03T13:31:34.409Z'
     - sails > @sailshq/express > @sailshq/connect > serve-favicon > ms:
         patched: '2018-05-03T13:31:34.409Z'
+    - sails-mysql > machinepack-mysql > debug > ms:
+        patched: '2018-05-03T13:32:46.531Z'
+    - sails-postgresql > machinepack-postgresql > debug > ms:
+        patched: '2018-05-03T13:32:46.531Z'
   'npm:negotiator:20160616':
     - sails > @sailshq/express > @sailshq/connect > compression > accepts > negotiator:
         patched: '2018-05-03T13:31:34.409Z'
