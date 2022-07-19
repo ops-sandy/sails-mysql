@@ -20,7 +20,7 @@
     "sails": "~1.0.0",
     "sails-disk": "~1.0.0",
     "sails-mysql": "^1.0.0",
-    "sails-postgresql": "^1.0.0",
+    "sails-postgresql": "^5.0.0",
     "skipper": "^0.8.2",
     "underscore": "^1.8.3",
     "underscore.string": "^3.3.4",
