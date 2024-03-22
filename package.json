@@ -7,7 +7,7 @@
   "dependencies": {
     "asyncawait": "^1.0.6",
     "aws-sdk": "^2.54.0",
-    "bcrypt": "5.0.0",
+    "bcrypt": "5.0.1",
     "hydra": "^1.4.28",
     "hydra-integration": "^1.0.1",
     "include-all": "^3.0.0",
