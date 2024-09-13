@@ -21,7 +21,7 @@
     "sails-disk": "~1.0.0",
     "sails-mysql": "^1.0.0",
     "sails-postgresql": "^1.0.0",
-    "skipper": "^0.8.2",
+    "skipper": "^0.9.5",
     "underscore": "^1.8.3",
     "underscore.string": "^3.3.4",
     "uuid": "^3.0.1",
