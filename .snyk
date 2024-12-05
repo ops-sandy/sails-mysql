@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -82,3 +82,40 @@ patch:
         patched: '2018-05-03T13:31:34.409Z'
     - sails > @sailshq/express > @sailshq/connect > serve-index > accepts > negotiator:
         patched: '2018-05-03T13:31:34.409Z'
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - asyncawait > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - minio > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - mailgun-js > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - skipper > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-disk > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-mysql > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-postgresql > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails > machinepack-redis > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails > sails-generate > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails > skipper > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-mysql > waterline-utils > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-postgresql > waterline-utils > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-mysql > machinepack-mysql > waterline-sql-builder > knex > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-postgresql > machinepack-postgresql > waterline-sql-builder > knex > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-mysql > machinepack-mysql > waterline-sql-builder > waterline-utils > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
+    - sails-postgresql > machinepack-postgresql > waterline-sql-builder > waterline-utils > async > lodash:
+        patched: '2020-05-01T08:59:26.769Z'
