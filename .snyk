@@ -82,3 +82,44 @@ patch:
         patched: '2018-05-03T13:31:34.409Z'
     - sails > @sailshq/express > @sailshq/connect > serve-index > accepts > negotiator:
         patched: '2018-05-03T13:31:34.409Z'
+  'npm:lodash:20180130':
+    - sails > machinepack-redis > machine > rttc > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machinepack-strings > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machinepack-strings > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machinepack-strings > browserify-transform-machinepack > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machinepack-util > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machinepack-util > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machinepack-util > browserify-transform-machinepack > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - skipper > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > machinepack-redis > machine > include-all > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails-disk > machinepack-fs > machinepack-json > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > machinepack-redis > machine > switchback > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > machinepack-process > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > sort-route-addresses > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > sails-generate > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > sails-generate > machinepack-process > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > sails-generate > machinepack-process > machinepack-json > machine > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > sails-generate > reportback > switchback > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
+    - sails > skipper > lodash:
+        patched: '2018-07-02T21:47:04.031Z'
